@@ -1,0 +1,123 @@
+
+.menu-container {
+    color: grey;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu1 {
+    width: 450px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .menu2 {
+    width: 450px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+#myImage {
+    height: 30px;
+    border-radius: 60%;
+    
+}
+ #myImage2 {
+     height: 20px;
+ }
+
+ .store {
+     margin-left: 20px;
+ }
+
+ .images,
+ .ninedot,
+ .pic {
+    margin-left: 20px;
+ }
+
+ .pic {
+     margin-right: 30px;
+ }
+
+ .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+#full-name  {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+    border 1px solid #D6D9
+    border-radius: 40%;
+  
+    height: 20px;
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+    
+  }
+
+  .btn {
+    background-color: lightgrey; /* Grey */
+    border: none;
+    color: rgb(20, 1, 1);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  html { height: 100%; }
+body {
+    min-height:100%; 
+    position:relative; 
+    padding-bottom:[footer-height] 
+}
+.footer { 
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    
+    
+}
+
+.ftleft {
+    width: 450px;
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+
+  .ftright {
+    width: 450px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .advertising,
+  .business,
+  .howsearchworks {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.privacy,
+ .terms,
+ .settings {
+    margin-left: 20px;
+    padding-top: 10px;
+ }
+
+ .settings {
+     margin-right: 30px;
+ }
